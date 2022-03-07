@@ -1,6 +1,10 @@
 import requests as req
 import concurrent.futures as cf
 
+
+dd=120
+
+
 #mialer
 url='https://www.samspedispa.com/admin/controller/extension/extension/bcc.php'
 
@@ -53,5 +57,4 @@ pyl={
 r=req.post(url, data=pyl, json=h)
 print(r.status_code)
 
-with req.Session() as rs:
-    re.
+
